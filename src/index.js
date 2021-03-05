@@ -1,6 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import Twitter from './twitter.js';
+import HomePage from './HomePage.js';
+//import { faCoffee } from '@fortawesome/free-solid-svg-icons';
 
 
-ReactDOM.render(<Twitter />, document.getElementById('root'));
+ReactDOM.render(<HomePage />, document.getElementById('root'));

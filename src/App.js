@@ -9,7 +9,8 @@ import './style.css';
 class App extends Component {
   render () {
     return (
-      <HashRouter className='navbar'>
+      <div  className='navbar'>
+      <HashRouter>
         <div>
           <ul>
             <li className='linkHome'><NavLink to ='/'>HOME</NavLink></li>
@@ -23,6 +24,7 @@ class App extends Component {
           </div>
         </div>
       </HashRouter>
+      </div>
     )
   }
 }

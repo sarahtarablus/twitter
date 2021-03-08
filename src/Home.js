@@ -1,5 +1,4 @@
 import React from 'react';
-//import background from './images/TwitterPic.jpg';
 
 
 const Home = (props) => {

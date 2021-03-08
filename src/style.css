@@ -17,13 +17,15 @@ ul {
   float: right;
   list-style-type: none;
   margin: 0;
+  background-color: black;
 }
 
 li {
   display: inline-block;
   vertical-align: baseline;
- padding: 30px;
-  font-size: 20px;
+  padding-right: 70px;
+  padding-top: 40px;
+  font-size: 15px;
 }
 
 
@@ -71,6 +73,9 @@ a:hover {
 .input {
   display: flex;
   justify-content: center;
+  margin-top: 80px;
+  padding-top: 30px;
+  padding-bottom: 10px;
 }
 
 input {
@@ -87,13 +92,16 @@ input {
   position: absolute;
   left: 50%;
   transform: translateX(-50%);
+  margin-left: 15px;
 }
 
 button {
   height: 45px;
-  width: 125px;
+  width: 115px;
   border-radius: 5px;
   border: none;
   background-color: black;
   color: white;
+  margin: 5px;
 }
+

@@ -23,9 +23,9 @@ ul {
 li {
   display: inline-block;
   vertical-align: baseline;
-  padding-right: 70px;
-  padding-top: 40px;
-  font-size: 15px;
+  padding: 30px 40px 13px;
+  font-size: 20px;
+ 
 }
 
 
@@ -55,12 +55,20 @@ a:hover {
 
 }
 
-.title {
+.title {  
+  color: white; 
+  font-size: 70px;
+  padding: 40px 0 0 100px;
+ 
+}
+
+.text {
+  height: 100px;
+  width: 300px;
   font-weight: bold;
   color: white;
-  font-size: 50px;
-  padding: 20px;
- 
+  font-size: 30px;
+  margin: 130px 0 0 125px;
 }
 
 .search {
@@ -105,3 +113,32 @@ button {
   margin: 5px;
 }
 
+
+.showcase {
+  color: white;
+  height: 200px;
+  width: 600px;
+  font-size: 17px;
+  border: white solid 1.5px;
+  border-radius: 8px;
+  padding: 10px 0 0 30px;
+}
+
+.usernameAndDate {
+  display: inline-flex;
+}
+
+p {
+  padding-right: 15px;
+}
+
+
+.icons {
+  font-size: 15px;
+  padding: 20px;
+}
+
+.icon {
+  display: inline-flex;
+  padding: 0 10px 0 50px;
+}

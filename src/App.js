@@ -6,6 +6,8 @@ import Random from './Random.js';
 import './style.css';
 
 
+
+
 class App extends Component {
   render () {
     return (
@@ -13,9 +15,9 @@ class App extends Component {
       <HashRouter>
         <div>
           <ul>
-            <li className='linkHome'><NavLink to ='/'>HOME</NavLink></li>
-            <li><NavLink to ='/Search'>SEARCH</NavLink></li>
-            <li><NavLink to ='/Random'>RANDOM</NavLink></li>
+            <li className='linkHome'><NavLink to ='/'>Home</NavLink></li>
+            <li><NavLink to ='/Search'>Search</NavLink></li>
+            <li><NavLink to ='/Random'>Random</NavLink></li>
           </ul>
           <div>
             <Route exact path ='/' component={Home} />

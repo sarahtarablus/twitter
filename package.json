@@ -41,23 +41,5 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  },
-  "description": "This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).",
-  "main": "index.js",
-  "devDependencies": {
-    "nodemon": "^2.0.7"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/sarahtarablus/twitter.git"
-  },
-  "keywords": [
-    "twitter"
-  ],
-  "author": "Sarah Tarablus",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/sarahtarablus/twitter/issues"
-  },
-  "homepage": "https://github.com/sarahtarablus/twitter#readme"
+  }
 }
